@@ -1,0 +1,26 @@
+1. Revenue report: Deaprtment wise Collection from all centers.  
+   Through manual or collection of data from invoice system by departmen wise collection wise as EOD report.
+
+2. Patient count from all center.
+
+3. Referral doctor (outside doctor) count and revenue. 
+
+4. Internal doctor (ccases and revenue generation) 
+
+5. eMaild id for IT -- Develop dept.
+
+6. All request and report should come as request through mail not in oral or papers.
+
+7. Documentation for all work should be done so far because there is not such documentation so far what ever developed.
+
+8. Revenue report department wise from all centers.
+
+9. Patient count from all centers.
+
+10. Referal count outside doctor count and revenue.
+
+11. Internal doctor cases and revenue generation.
+
+12. What are all the reports require from management?
+
+13. 

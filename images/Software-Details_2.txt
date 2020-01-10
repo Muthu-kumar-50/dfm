@@ -1,0 +1,102 @@
+192.168.0.55:5601  - Call Center Kibana :  User name : vicky pass:vicky123
+192.168.1.195:5601  -TeleRadiology Kibana : User name : DR AARTHI Pass  :123321
+192.168.0.132:5602  - Om Inspectoion Entries : 
+
+Elastic Search
+
+192.168. 1.196:9200
+192.168.1.195:9200
+192.168.0.132:9200
+
+Software URLS
+
+Vtiger - 192.168.1.222/aarthi User Name  : admin Pass:hitman
+Vcdial - 192.168.1.222 User Name : hari Pass : mercury@123
+Innowave- 192.168.1.250/FreedomNano2.0 User Name :admin@aarthiscanshq.com Pass:aarthiadmin
+
+Database
+
+workbench
+
+192.168.1.222/phpMyAdmin - Aarthi  - Vtiger User Name  : remote Pass :asdfghjkl - Vtiger database
+192.168.1.222/phpMyAdmin - Asterisk Visidial User Name  : remote Pass :asdfghjkl - Vcdial database
+192.168.1.250 : 3306 - Innowave Database User name :aarthiit Password:aarthi@2019  -To access workbench
+
+To run te innowave database run workbench from run command
+Integrated Development Enviornment (IDE)	
+
+http://192.168.1.195/phpmyadmin
+user id : admin
+password :aarthi123
+
+http://192.168.0.55:5000/login -DFM login
+
+SELECT user_code,username,password,user_level FROM `user_master` order by user_level
+SELECT * FROM `flow_control_master` WHERE flow_flag is null
+
+
+
+
+
+
+DOSIMETRY
+
+DICOM - PAC SERVER
+
+
+IMAC
+
+Slims or Sukra
+
+Linux Password
+workbench
+	
+In Search
+Putty
+workbench
+192.168.1.195
+user : root
+password :Elk!@#123
+
+https://opensource.com/article/19/2/network-monitoring-tools
+
+tiruchendur
+
+https://blog.capterra.com/top-free-bug-tracking-software/
+
+https://www.capterra.com/p/119057/Bugzilla/
+		
+
+SELECT * FROM freedomlite.billing_investigation_master_tbl where code = "002192"
+
+https://www.datacamp.com/community/podcast
+
+luminious
+Virdhani soup
+
+https://landbot.io/
+Login id  : agent@chatbot.com
+Password : Aarthi@987 -Capitial A
+
+https://zapier.com/help/dashboard/
+
+Act no : 103016838387
+
+Request no : 10310603369010
+
+1. Address Proff.
+2. ID proof.
+3. PAN CARD or VOTER ID
+4. 
+
+t.nagar south boag road 
+old no 30c new no 6
+south boag road
+Door no 143: shevaliar shivaji ganesan road
+Near G.L Meridian hotel
+T.NAGAR
+
+http :// dhee.ai - Chat going to implement
+
+https://www.google.com/search?q=how+to+integrate+python+message+to+whatsapp&rlz=1C1CHBD_enIN834IN834&oq=how+to+integrate+python+message+to+whats&aqs=chrome.2.69i57j33l3.18303j0j7&sourceid=chrome&ie=UTF-8
+https://www.twilio.com/blog/send-whatsapp-message-30-seconds-python

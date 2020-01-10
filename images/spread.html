@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+ 
+<h2>JavaScript Arrays Example</h2>
+<p id="demo"></p>
+ 
+<script>
+function saveAsCSV() {
+  var ss = SpreadsheetApp.openByUrl('https://docs.google.com/spreadsheets/d/1KjphLfF2MVatkleYwyOsFoaKHdqgcBAc2ETQ5p4ZZ50/edit?ts=5c62c525#gid=970201609');
+  var sheets = ss.getSheets();
+  // create a folder from the name of the spreadsheet
+  var folder = DriveApp.createFolder(ss.getName().toLowerCase().replace(/ /g,'_') + '_csv_' + new Date().getTime());
+  for (var i = 0 ; i < sheets.length ; i++) {
+    var sheet = sheets[i];
+    // append ".csv" extension to the sheet name
+    fileName = sheet.getName() + ".csv";
+    // convert all available sheet data to csv format
+    var csvFile = convertRangeToCsvFile_(fileName, sheet);
+    // create a file in the Docs List with the given name and the csv data
+    folder.createFile(fileName, csvFile);
+  }
+ }
+</script>
+ 
+</body>
+</html> 
